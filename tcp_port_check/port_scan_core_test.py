@@ -15,6 +15,7 @@ def portScanner(host, port):
 
 def main():
     setdefaulttimeout(1)
+    # 测试1024个端口
     for p in range(1, 1024):
         portScanner('137.78.5.34', p)
 
